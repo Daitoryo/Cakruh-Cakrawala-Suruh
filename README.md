@@ -13,3 +13,10 @@ Selain sulit untuk mencari tempat seperti fotocopy, mahasiswa juga terkadang ing
 Selain 2 hal diatas mahasiswa juga sering kesusahan ketiga terjadi masalah mendadak, seperti kendaraan yang suka tiba-tiba mogok, ban kendaraan kempes tiba-tiba, bingung ingin pergi ke suatu tempat tetapi harga pesan ojek yang begitu mahal.
 
 Maka dari beberapa permasalahan diatas kita ber inisiatif untuk menghadirkan aplikasi jasa yaitu **Caakruh (cakrawala suruh) kami membuat kami membuat jasa cakruh untuk mengatasi permasalahan-permasalahan mahasiswa yang terjadi dengan harga yang jauh relatif lebih murah, kami juga membuat aplikasi cakruh agar mahasiswa mudah memesan jasa cakruh dan juga di aplikasi cakruh bisa melihat pricelist jasa yang tersedia jadi bisa lebih menyesuaikan dompet mahasiswa-mahasiswa yang sedang mengalami masalah tetapi tetap dengan murah dan juga mudah untuk diakses.
+
+## Beberapa hal yang tidak bisa dilakukan oleh cakruh
+Ada beberapa hal yang tidak bisa dilakukan oleh cakruh karena cakruh tidak menyediakan jasa berikut yaitu : 
+
+**1** : **joki tugas**. cakruh tidak bisa melakukan joki tugas karena hal itu merupakan kecurangan, dan cakruh tidak mentoleransi apapun kecurangan.
+**2** : **joki skripsi**. dikarenakan skripsi adalah tugas akhir mahasiswa maka cakruh tidak ingin mengambil resiko dengan menerima joki tugas.
+**3** : **joki game** : karena cakruh berada di lingkungan mahasiswa dan tujuan cakruh adalah membantu permasalahan mahasiwa di sekitar kampus, maka cakruh tidak bersedia untuk joki game.
