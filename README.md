@@ -13,7 +13,7 @@ Selain sulit untuk mencari tempat seperti fotocopy, mahasiswa juga terkadang ing
 Selain 2 hal diatas mahasiswa juga sering kesusahan ketika terjadi masalah mendadak, seperti kendaraan yang suka tiba-tiba mogok, ban kendaraan kempes tiba-tiba, bingung ingin pergi ke suatu tempat tetapi harga pesan ojek yang begitu mahal.
 
 Maka dari beberapa permasalahan diatas kita ber inisiatif untuk menghadirkan aplikasi jasa yaitu **Caakruh (cakrawala suruh)** kami membuat kami membuat jasa cakruh untuk mengatasi permasalahan-permasalahan mahasiswa yang terjadi dengan harga yang jauh relatif lebih murah, kami juga membuat aplikasi cakruh agar mahasiswa mudah memesan jasa cakruh dan juga di aplikasi cakruh bisa melihat pricelist jasa yang tersedia jadi bisa lebih menyesuaikan dompet mahasiswa-mahasiswa yang sedang mengalami masalah tetapi tetap dengan murah dan juga mudah untuk diakses.
-
+---
 ## ❌ BEBERAPA HAL YANG TIDAK BISA DILAKUKAN OLEH CAKRUH
 Ada beberapa hal yang tidak bisa dilakukan oleh cakruh karena cakruh tidak menyediakan jasa berikut yaitu : 
 
