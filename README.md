@@ -1,10 +1,10 @@
-# DOKUMENTASI APLIKASI CAKRUH (CAKRAWALA SURUH)
+# ▶️ DOKUMENTASI APLIKASI CAKRUH (CAKRAWALA SURUH)
 
 Selamat Datang di Dokumentasi **Aplikasi Cakruh (Cakrawala Suruh).** Dokumentasi ini Dibuat Agar Pengguna Dapat Dengan Mudah Memesan Jasa Yang Di Sediakan Oleh Cakruh.
 
 ---
 
-# PERMASALAHAN YANG TERJADI
+## 🔗 PERMASALAHAN YANG TERJADI
 
 Belakangan ini banyak sekali mahasiswa yang pusing karena sedang banyak tugas maupun tempat yang sulit untuk dijangkau, contohnya seperti : Footocopy. Dan karena kebingungan untuk mengakses itu mahasiswa jadi bingung untuk print tugas, print makalah dan juga skripsi.
 
