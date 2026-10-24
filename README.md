@@ -19,8 +19,8 @@ Maka dari beberapa permasalahan diatas kita ber inisiatif untuk menghadirkan apl
 ## ❌ BEBERAPA HAL YANG TIDAK BISA DILAKUKAN OLEH CAKRUH
 Ada beberapa hal yang tidak bisa dilakukan oleh cakruh karena cakruh tidak menyediakan jasa berikut yaitu : 
 
-**1** : **joki tugas** 📖. cakruh tidak bisa melakukan joki tugas karena hal itu merupakan kecurangan, dan cakruh tidak mentoleransi apapun kecurangan.
+- **joki tugas** 📖. cakruh tidak bisa melakukan joki tugas karena hal itu merupakan kecurangan, dan cakruh tidak mentoleransi apapun kecurangan.
 
-**2** : **joki skripsi** 📑. dikarenakan skripsi adalah tugas akhir mahasiswa maka cakruh tidak ingin mengambil resiko dengan menerima joki tugas.
+- **joki skripsi** 📑. dikarenakan skripsi adalah tugas akhir mahasiswa maka cakruh tidak ingin mengambil resiko dengan menerima joki tugas.
 
-**3** : **joki game** 🎮: karena cakruh berada di lingkungan mahasiswa dan tujuan cakruh adalah membantu permasalahan mahasiwa di sekitar kampus, maka cakruh tidak bersedia untuk joki game.
+- **joki game** 🎮: karena cakruh berada di lingkungan mahasiswa dan tujuan cakruh adalah membantu permasalahan mahasiwa di sekitar kampus, maka cakruh tidak bersedia untuk joki game.
