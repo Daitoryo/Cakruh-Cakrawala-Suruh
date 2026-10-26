@@ -1,0 +1,27 @@
+# modul pemesanan
+
+# tanggung jawab
+
+Melakukan pemesanan/booking jasa ke petugas cakruh melalui aplikasi cakruh
+
+# Data
+
+- Menentukan jenis masalah
+- Memilih kartegori jasa
+- Lokasi
+- Memilih jadwal
+- Menentukan tarif
+- Matching
+
+# Aturan
+
+- Mahasiswa memesan jasa
+- Mahasiswa menentukan masalah yang terjadi
+- Mahasiswa mengatur tarif jasa yang ingin dipesan
+- Pesanan jasa sesuai jadwal yang dipilih oleh mahasiswa
+- Lokasi sesuai dengan yang dipilih oleh mahasiswa
+
+# Hubungan
+
+- Modul Payment (menentukan harga jasa yang ingin dipesan)
+- Modul notification (mengirim notifikasi setelah melakukan booking)
