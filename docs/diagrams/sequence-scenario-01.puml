@@ -1,0 +1,31 @@
+@startuml
+actor Mahasiswa
+participant "UI Aplikasi" as UI
+participant "Modul Registration" as Reg
+participant "Modul Notification" as Notif
+
+Mahasiswa -> UI : Isi formulir pendaftaran & Nomor HP
+activate UI
+UI -> Reg : daftarAkun(data_profil)
+activate Reg
+Reg -> Notif : kirimOTP(nomor_hp)
+activate Notif
+Notif --> Reg : OTP_terkirim
+deactivate Notif
+Reg --> UI : Minta verifikasi OTP
+UI --> Mahasiswa : Tampilkan halaman input OTP
+
+Mahasiswa -> UI : Input kode OTP
+UI -> Reg : verifikasiOTP(kode_input)
+
+alt Kode OTP Valid
+    Reg --> UI : Verifikasi Sukses
+    UI --> Mahasiswa : Arahkan ke Dasbor & atur Lokasi
+else Kode OTP Salah / Kedaluwarsa
+    Reg --> UI : Error: "OTP Tidak Valid"
+    UI --> Mahasiswa : Tampilkan pesan "Kode OTP salah, silakan minta ulang"
+end
+
+deactivate Reg
+deactivate UI
+@enduml
