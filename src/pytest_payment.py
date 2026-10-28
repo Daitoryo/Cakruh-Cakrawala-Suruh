@@ -1,6 +1,6 @@
 import pytest
 
-import payment_saja as p
+import payment_modul as p
 
 CASH = "Bayar di Tempat (Cash)"
 
