@@ -1,5 +1,13 @@
 # ▶️ DOKUMENTASI APLIKASI CAKRUH (CAKRAWALA SURUH)
 
+# identitas kelompok 
+
+|NAMA | NIM | USERNAME |
+| :--- | :--- | :--- | 
+| Muhammad Ricky Prasetyo | 26110300032 | @RickylianMbappe |
+| Abdul Rouf | 26110300006 | @Lubdaonly |
+| Daitoryo Prabu Arena | 26110300027 | @daitoryo |
+
 Selamat Datang di Dokumentasi **Aplikasi Cakruh (Cakrawala Suruh).** Dokumentasi ini Dibuat Agar Pengguna Dapat Dengan Mudah Memesan Jasa Yang Di Sediakan Oleh Cakruh.
 
 ---
