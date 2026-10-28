@@ -8,4 +8,4 @@
 | 26 Okt 2026 | Ricky (@RickylianMbappe) | D2 | Membuat modul | 15 mnt | dc5d466 / #2 |
 | 26 Okt 2026 | Ricky (@RickylianMbappe) | D4 | Menambahkan code dan gambar sequence diagram scenario 2 | 10 mnt | 3ca7ae6 / #7 |
 | 26 Okt 2026 | Ricky (@RickylianMbappe) | D2 | Menambahkan README.md di dalam modules serta membuat alur hubungan antar modul | 25 mnt | 4d6635c / #10 |
-| 29 Okt 2026 | D6-7-src/pytest (@Lubdaonly) | D6 | Menambahkan diagram sequence 3 dan gambarnya | 20mnt mnt | 985d9e2 / #9 |
+| 29 Okt 2026 | D6-7-src/pytest (@Lubdaonly) | D4 | Menambahkan diagram sequence 3 dan gambarnya | 20mnt mnt | 985d9e2 / #9 |
