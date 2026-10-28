@@ -1,4 +1,4 @@
-# modul registration
+# Modul registration
 
 ## Tanggung jawab
 
