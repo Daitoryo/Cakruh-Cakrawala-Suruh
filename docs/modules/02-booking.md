@@ -1,6 +1,6 @@
-# modul pemesanan
+# Modul pemesanan
 
-# tanggung jawab
+# Tanggung jawab
 
 Melakukan pemesanan/booking jasa ke petugas cakruh melalui aplikasi cakruh
 
