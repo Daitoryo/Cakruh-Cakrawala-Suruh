@@ -1,45 +1,49 @@
-"""Modul payment aplikasi Cakruh (Cakrawala Suruh).
+import math
 
-Fungsi yang diuji: validate_payment()
-Aturan (dari spesifikasi modul payment):
-  - Metode yang tersedia: e-wallet, transfer bank, bayar di tempat (cash), QRIS.
-  - Cash hanya boleh dibayar SETELAH pengerjaan selesai.
-  - Transfer bank boleh dibayar terlebih dahulu (sebelum pengerjaan).
-  - E-wallet dan QRIS bisa dibayar kapan saja.
-"""
-
-SUPPORTED_METHODS = {"ewallet", "transfer", "cash", "qris"}
+# Daftar metode yang diizinkan
+METODE_VALID = ["ewallet", "transfer", "cash", "qris"]
 
 
 def validate_payment(method, amount, job_done):
-    """Cek apakah pembayaran boleh diproses.
-
-    Args:
-        method (str): "ewallet", "transfer", "cash", atau "qris"
-                      (tidak case-sensitive, spasi di tepi diabaikan).
-        amount (int | float): nominal pembayaran, harus > 0.
-        job_done (bool): True jika petugas sudah selesai mengerjakan.
-
-    Returns:
-        bool: True jika pembayaran boleh diproses, False jika ditolak
-              (cash sebelum pengerjaan selesai).
-
-    Raises:
-        ValueError: metode tidak dikenal atau nominal tidak valid.
     """
+    method   : nama metode bayar, contoh "cash"
+    amount   : jumlah uang, contoh 50000
+    job_done : True jika pekerjaan sudah selesai, False jika belum
+
+    Hasil:
+        True  -> pembayaran boleh diproses
+        False -> pembayaran ditolak (cash sebelum pekerjaan selesai)
+        Error (ValueError) -> datanya salah
+    """
+
+    # --- Cek 1: metode harus berupa teks ---
     if not isinstance(method, str):
-        raise ValueError("Metode pembayaran harus berupa string")
+        raise ValueError("Metode pembayaran harus berupa teks")
 
-    normalized = method.strip().lower()
-    if normalized not in SUPPORTED_METHODS:
-        raise ValueError(f"Metode pembayaran tidak didukung: {method!r}")
+    # Rapikan teks: buang spasi di tepi dan jadikan huruf kecil
+    metode = method.strip().lower()
 
+    # --- Cek 2: metode harus ada di daftar ---
+    if metode not in METODE_VALID:
+        raise ValueError("Metode pembayaran tidak didukung")
+
+    # --- Cek 3: nominal harus berupa angka ---
+    # (True/False ditolak, karena Python menganggapnya angka 1 dan 0)
     if isinstance(amount, bool) or not isinstance(amount, (int, float)):
         raise ValueError("Nominal harus berupa angka")
+
+    # --- Cek 4: nominal harus masuk akal ---
+    if math.isnan(amount) or math.isinf(amount):
+        raise ValueError("Nominal tidak valid")
     if amount <= 0:
         raise ValueError("Nominal harus lebih dari 0")
 
-    if normalized == "cash":
-        return bool(job_done)
+    # --- Cek 5: job_done harus True atau False ---
+    if not isinstance(job_done, bool):
+        raise ValueError("job_done harus True atau False")
 
-    return True
+    # --- Aturan utama ---
+    if metode == "cash":
+        return job_done   # cash: boleh hanya kalau pekerjaan sudah selesai
+
+    return True           # metode lain: boleh kapan saja
